@@ -1,0 +1,11 @@
+node_modules
+dist
+server/dist
+server/prisma/*.db
+server/prisma/*.db-journal
+.env
+.DS_Store
+*.tsbuildinfo
+
+/src/generated/prisma
+.gstack/

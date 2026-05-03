@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-29",
+  "window": "7d",
+  "metrics": {
+    "commits": 43,
+    "commits_non_merge": 25,
+    "merges": 18,
+    "contributors": 2,
+    "prs_merged": 16,
+    "insertions": 5797,
+    "deletions": 504,
+    "net_loc": 5293,
+    "test_loc": 2000,
+    "test_ratio": 0.345,
+    "active_days": 5,
+    "sessions": 9,
+    "deep_sessions": 1,
+    "medium_sessions": 2,
+    "micro_sessions": 6,
+    "avg_session_minutes": 21,
+    "loc_per_session_hour": 1750,
+    "feat_pct": 0.36,
+    "fix_pct": 0.48,
+    "docs_pct": 0.12,
+    "refactor_pct": 0.04,
+    "peak_hour": 18,
+    "peak_hour_commits": 19,
+    "ai_assisted_commits": 0
+  },
+  "authors": {
+    "Daniel Chahine": {
+      "commits": 40,
+      "commits_non_merge": 23,
+      "insertions": 5789,
+      "deletions": 496,
+      "test_ratio": 0.345,
+      "top_area": "server/src/lib/"
+    },
+    "Gurehmat": {
+      "commits": 3,
+      "commits_non_merge": 2,
+      "insertions": 8,
+      "deletions": 8,
+      "test_ratio": 0,
+      "top_area": "README.md"
+    }
+  },
+  "version_range": ["—", "—"],
+  "streak_days": 3,
+  "personal_streak_days": 0,
+  "tweetable": "Week of Apr 22: 43 commits (2 contributors), 5.3k net LOC, 34% tests, 16 PRs merged (peak: 18:00 — late-day batch landings) | Streak: 3d",
+  "test_health": {
+    "total_test_files": 79,
+    "tests_added_this_period": 11,
+    "regression_test_commits": 0,
+    "test_files_changed": 11
+  }
+}
