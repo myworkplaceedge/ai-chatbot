@@ -17,7 +17,7 @@ An AI-powered communication skills training chatbot for Workplace Edge. Admins u
 ```
 
 **Monorepo** with two independent packages:
-- **Root (`/`)** -- React 18 + Vite frontend (TypeScript, Tailwind CSS)
+- **Root (`/`)** -- React 18 + Vite frontend (TypeScript, Tailwind CSS) 
 - **`/server`** -- Express API server (TypeScript)
 
 ## Tech Stack
@@ -165,7 +165,7 @@ cd server && npm run build
 
 Frontend is configured for Vercel deployment (`vercel.json` handles SPA routing). Server can be deployed to Railway, Render, or any Node.js hosting.
 
-## Documentation
+## Documentation Below
 
 - [User Guide](docs/USER_GUIDE.md)
 - [Admin Guide](docs/ADMIN_GUIDE.md)
