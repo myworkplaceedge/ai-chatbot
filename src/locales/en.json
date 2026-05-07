@@ -1,0 +1,49 @@
+{
+  "app": {
+    "title": "AI Lesson Coach",
+    "adminPanel": "Admin Panel"
+  },
+  "chat": {
+    "welcome": "Hi! I'm your AI Lesson Coach. Ask me anything about the communication skills in this lesson and I'll help you apply them.",
+    "placeholder": "Ask about this lesson...",
+    "sendLabel": "Send message",
+    "coachingFocus": "Choose a coaching focus",
+    "error": "Something went wrong. Please try again.",
+    "disclaimer": "I'm a learning coach, not HR. For workplace concerns, please contact your manager or HR department.",
+    "intents": {
+      "give_feedback": "Give Feedback",
+      "set_boundary": "Set a Boundary",
+      "push_back_deadline": "Push Back on Deadline",
+      "clarify_tasks": "Clarify Tasks",
+      "general_coaching": "General Coaching"
+    },
+    "rolePlay": {
+      "practiceThis": "Practice This",
+      "turnsLeft": "Practice Mode ({{count}} turns left)",
+      "activated": "Practice Mode activated! I'll play a difficult coworker for the next 2 exchanges. Try using the communication skills from the lesson. Go ahead — what would you say?"
+    }
+  },
+  "admin": {
+    "lessonManager": "Lesson Content Manager",
+    "uploadTitle": "Upload Lesson Plan",
+    "uploadDescription": "Upload a Word document to process and store lesson content.",
+    "uploadButton": "Upload Lesson",
+    "uploading": "Uploading...",
+    "uploadedLessons": "Uploaded Lessons",
+    "analytics": "Analytics",
+    "uploadSuccess": "Lesson uploaded successfully",
+    "uploadError": "Upload failed. Please try again.",
+    "deleteSuccess": "Lesson deleted successfully",
+    "deleteError": "Failed to delete lesson",
+    "loadError": "Failed to load lessons"
+  },
+  "escalation": {
+    "title": "This topic may need human support",
+    "message": "Please reach out to your HR department, manager, or Employee Assistance Program (EAP) for help with this concern."
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español"
+  }
+}

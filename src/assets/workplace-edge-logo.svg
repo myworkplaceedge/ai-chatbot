@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" role="img" aria-labelledby="we-title we-desc">
+  <title id="we-title">Workplace Edge logo</title>
+  <desc id="we-desc">Blue speech-bubble icon with a circle cutout next to the Workplace Edge wordmark.</desc>
+  <path
+    fill="#233A95"
+    fill-rule="evenodd"
+    d="M30 14 H148 a16 16 0 0 1 16 16 V120 a16 16 0 0 1 -16 16 H56 L12 170 L36 136 H30 a16 16 0 0 1 -16 -16 V30 a16 16 0 0 1 16 -16 Z M70 75 a30 30 0 1 0 60 0 a30 30 0 1 0 -60 0 Z"
+  />
+  <g fill="#233A95" font-family="Inter, Arial, sans-serif" font-weight="800" letter-spacing="1">
+    <text x="195" y="78" font-size="56">WORKPLACE</text>
+    <text x="195" y="142" font-size="56">EDGE</text>
+  </g>
+</svg>
