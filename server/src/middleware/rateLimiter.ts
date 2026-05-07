@@ -1,4 +1,4 @@
-import rateLimit from "express-rate-limit";
+import rateLimit, { ipKeyGenerator } from "express-rate-limit";
 import { randomUUID } from "node:crypto";
 import type { Request } from "express";
 
@@ -52,7 +52,8 @@ export const chatSessionLimiter = rateLimit({
   legacyHeaders: false,
   keyGenerator: (req: Request) => {
     const sessionId = (req.body as { sessionId?: string } | undefined)?.sessionId;
-    return sessionId ?? req.ip ?? "unknown";
+    if (sessionId) return sessionId;
+    return req.ip ? ipKeyGenerator(req.ip, false) : "unknown";
   },
   message: () => ({ error: "Rate limit exceeded", retryAfter: 60, requestId: randomUUID() }),
 });
