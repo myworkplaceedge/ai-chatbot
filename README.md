@@ -9,11 +9,11 @@ An AI-powered communication skills training chatbot for Workplace Edge. Admins u
 │ React Frontend │──API──│  Express Server │──LLM──│ Google Gemini │
 │ (Vite + TS)    │       │  (TypeScript)   │       │ (2.5 Flash)   │
 └────────────────┘       └────────┬────────┘       └───────────────┘
-                                   │
-                          ┌────────┴────────┐
-                          │  SQLite / Turso │
-                          │  (Prisma ORM)   │
-                          └─────────────────┘
+                                  │
+                          ┌───────┴────────┐
+                          │ SQLite / Turso │
+                          │ (Prisma ORM)   │
+                          └────────────────┘
 ```
 
 **Monorepo** with two independent packages:
