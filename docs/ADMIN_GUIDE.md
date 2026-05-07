@@ -4,10 +4,16 @@
 
 Navigate to `/admin` on your deployment URL (e.g., `https://your-app.vercel.app/admin`).
 
+The admin panel opens in a locked state. Enter the admin API token that matches the backend
+`ADMIN_API_TOKEN` environment variable to unlock lesson management and analytics. The token is
+stored in `sessionStorage`, so it persists for the current browser tab/session only. Use
+**Lock Admin** when finished to clear the token. If the backend rejects the token during an admin
+request, the page automatically locks again and asks for the token.
+
 ## Uploading Lessons
 
 1. In the **Upload Lesson Plan** section, drag and drop a `.docx` file onto the upload zone, or click to browse
-2. Only `.docx` (Word) files are supported, with a maximum size of 25MB
+2. Only `.docx` (Word) files are supported, with a maximum size of 10MB
 3. Click **Upload Lesson** to process the file
 4. The system extracts plain text from the document and stores it for the AI to reference
 
@@ -46,7 +52,7 @@ A bar chart showing which uploaded lesson documents are referenced most often. H
 
 - Sessions older than 30 days are eligible for automatic cleanup
 - PII (emails, phone numbers, SSN/SIN, credit card numbers) is automatically redacted from stored messages
-- The `/api/cleanup` endpoint can be called to trigger session cleanup
+- The `/api/cleanup` endpoint can be called with `Authorization: Bearer <ADMIN_API_TOKEN>` to trigger session cleanup
 
 ## Embedding the Chat
 
