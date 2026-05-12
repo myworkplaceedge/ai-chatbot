@@ -376,7 +376,7 @@ function ChatExperience({ compact = false }: ChatExperienceProps) {
       className={clsx(
         "flex flex-col text-brand-ink",
         compact
-          ? "h-full w-full bg-white"
+          ? "h-screen w-full bg-white"
           : "mx-auto h-dvh w-full max-w-2xl px-4 py-4",
       )}
     >
